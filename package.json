@@ -1,0 +1,26 @@
+{
+  "name": "vdoma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorian10/-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zorian10/-/issues"
+  },
+  "homepage": "https://github.com/zorian10/-#readme",
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

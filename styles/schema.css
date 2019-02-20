@@ -1,0 +1,34 @@
+.pulse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color:gray;
+  background:#ccffff;
+  border-radius: 50%;
+  animation: radial-pulse 1s infinite;
+}
+div .pulse #mediaroom p{
+  margin-left:800px;
+}
+.circle {
+  width: 100%;
+  height: 100vh;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+  }
+}

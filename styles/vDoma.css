@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+/* common styles */
+html {
+  height: 100%;
+}
+
+body {
+  width:100%;
+  height: 100%;
+  color: #333;
+  background-color: white;
+  font-size: 1 em;
+  font-family: "Segoe UI", sans-serif;
+
+}
+a {
+
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  color: #333;
+}
+  img{
+    max-width: : 100%;
+    height: auto;
+    width: auto\9;
+
+  }
+header, footer {
+    width: 98%;
+    background-color: white;
+
+}
+article {
+  height: 100%;
+}
+/* Style for header */
+header {
+padding: 1%;
+}
+.Logo img {
+  max-height: 80px;
+  max-width:80px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    font-family: Nina CTT;
+    font-weight: 600;
+    font-size: 13px;
+    float:right;
+    padding: 10px;
+
+}
+.menu {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin-top: -25px;
+
+}
+.navigation.menu li a {
+  color: #333;
+
+}
+ nav .navigation {
+  margin-top:-25px;
+}
+.menu:hover  {
+    background-color: #737373;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+.navigation img {
+  max-height: 25px;
+  max-width: 25px;
+  margin-left: 5px;
+  margin-right:5px;
+  margin-bottom: -5px;
+
+}
+
+.img_home_page{
+ display: block;
+ position: relative;
+ margin-left: 270px;
+ margin-top: 100px;
+ margin-bottom: 200px;
+ max-height:550px;
+ max-weight: 900px;
+ animation-direction: reverse;
+
+}
+h5{
+  position: relative;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-bottom: 0%;
+
+}
+div.home_page{
+  height: 100%;
+}
+
+/*Style for info about us */
+.about_us_logo{
+  position: relative;
+  font-size: 3.5em;
+  margin-top: 10px;
+  margin-bottom: -140px;
+  margin-left:500px;
+}
+
+
+
+.about_us{
+
+  display: block;
+  position: absolute;
+  float:left;
+  padding: 10px;
+  margin-top: 150px;;
+  margin-bottom:20px;
+  margin-right: 700px;
+  margin-left: 100px;
+  font-size: 1em;
+  font-family:georgia;
+  text-align: left;
+}
+
+.about_us_photo{
+  display:block;
+  position: relative;
+  max-width: 550px;
+  max-height: 650px;
+  margin-top: -30px;
+  float:right;
+  margin-right:100px;
+}
+/*Style for events*/
+
+/*Style for description of services */
+.serv div{
+  font-size: 1em;
+  float:left;
+}
+#services {
+  float:right;
+  margin-top: 140px;
+  margin-right:250px;
+  color:white;
+}
+.conteiner-1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  margin-left:100px;
+  margin-top:350px;
+  text-align:center;
+}
+
+.conteiner-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 100px;
+  margin-bottom: 100px;
+  text-align:center
+}
+
+.conteiner-1 .box img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.conteiner-2 .box1 img{
+  max-width: 100px;
+  max-height: 100px;
+}
+/* Style for schedule*/
+.our_schedule h3{
+  font-size: 1.2em;
+  font-family: times new roman;
+  float: right;
+  margin-top: 10px;
+  padding-right: 10px;
+  padding-bottom:  10px;
+  margin-right: 300px;
+  max-height: 60px;
+  max-width: 800px;
+  text-align: center;
+  color:#b3b3b3;
+
+}
+.our_schedule {
+  font-size: 1.5em;
+  font-family: times new roman;
+  float: right;
+  margin-top: -550px;
+  padding-left: 300px;
+  padding-right: 50px;
+
+}
+.our_schedule_img img{
+  margin-top:20px;
+  width:1400px;
+  margin:60px;
+}
+.our_schedule h1{
+  margin-right: 150px;
+  font-size:2em;
+  position:relative;
+  color:#e6e6e6;
+  font-family: times new roman;
+  }
+  /* Style for Rooms schema */
+  .rooms-schema img{
+    width:750px;
+    max-height: 400px;
+    margin-left: 470px;
+    margin-top:20px;
+    margin-button:100px;
+    position:absolute;
+
+  }
+/* Style for Ball*/
+div button{
+  width:200px;
+  height:200px;
+  background-color:white;
+  border:none;
+}
+div button img {
+  max-width: 200px;
+  margin-left:300px;
+  margin-top:200px;
+  margin-bottom:200px;
+}
+ #demo1{
+   float:right;
+   margin-right:530px;
+   margin-top:-320px;
+   font-size:1.5em;
+ }
+ .text-under-ball{
+   font-size: 1.5em;
+   font-family:times new roman;
+   margin-left:800px;
+   margin-bottom: -100px;
+   font-weight: bold;
+   margin-top: 50px;
+ }
+ /* Style for map */
+.map div {
+   overflow:hidden;
+   width:600px;
+   height:350px;
+}
+
+/* Style for contact*/
+.contact {
+  position: relative;
+  z-index: 1;
+  font-size: 1.2em;
+  font-family: times new roman;
+  color: #d9d9d9;
+  float:right;
+  text-align: center;
+  padding-top: 5px;
+  padding-right:180px;
+  padding-left: 10px;
+  margin-right: 50px;
+  margin-left: 40px;
+  margin-top: 60px;
+
+}
+.contact_href {
+  color:#e6e6e6;
+  text-decoration:none;
+}
+.map{
+  display: block;
+  position: relative;
+  margin-left: 110px;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+.backgraund_contact{
+  background-color: #1a1a1a;
+ width: 100%;
+  height: auto;
+  margin-top: 100px;
+  margin-right: 0px;
+  position: absolute;
+}
+.contact_href img {
+  weight: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.contact img {
+  weight: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+/* Style for footer*/
+footer {
+  padding: 1%;
+  margin-top: 10px;
+  padding-bottom: 2%;
+  height: 20px;
+  border-bottom: 1px solid black;
+
+}
+.right {
+   float:right;
+   margin-right:20px;
+}
+.right img{
+  margin-top:-25px;
+  margin-right:5px;
+  max-width: 70px;
+  max-height: 70px;
+}
+
+#page-wrap: after{
+  content: "";
+  display: block;
+
+}
+footer, #page-wrap: after{ height: 10px}
+#page-wrap {
+  min-height: 94%;
+  margin-bottom: -10px;
+}
