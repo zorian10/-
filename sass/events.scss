@@ -11,7 +11,7 @@ $c-light: #737373;
 $c-dark: #262626;
 
 // body height
-body {
+.conteiner-body {
   position: relative; // needed to stretch body to bottom
 }
 
@@ -136,7 +136,7 @@ div.bg {
 }
 
 // non essential style
-body {
+.conteiner-body {
   background-color: $c-dark;
   color: $c-light;
 }

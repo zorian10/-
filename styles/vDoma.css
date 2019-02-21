@@ -56,13 +56,22 @@ padding: 1%;
 }
 ul {
     list-style-type: none;
-    font-family: Nina CTT;
+    font-family: times new roman;
     font-weight: 600;
     font-size: 13px;
     float:right;
     padding: 10px;
-
 }
+@media (max-width:1199px){
+ul {
+    list-style-type: none;
+    font-family: times new roman;
+    font-weight: 600;
+    font-size: 13px;
+    float:right;
+    padding: 10px;
+    margin-right:-400px;
+}}
 .menu {
     display: inline-block;
     text-align: center;
@@ -120,6 +129,7 @@ div.home_page{
 }
 
 /*Style for info about us */
+
 .about_us_logo{
   position: relative;
   font-size: 3.5em;
@@ -127,23 +137,43 @@ div.home_page{
   margin-bottom: -140px;
   margin-left:500px;
 }
-
-
+@media only screen and (max-width: 1199px){
+.about_us_logo{
+  position: relative;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: -140px;
+  margin-left:440px;
+}}
 
 .about_us{
-
   display: block;
   position: absolute;
   float:left;
   padding: 10px;
   margin-top: 150px;;
-  margin-bottom:20px;
+  margin-bottom:100px;
   margin-right: 700px;
   margin-left: 100px;
   font-size: 1em;
   font-family:georgia;
   text-align: left;
 }
+@media (max-width:1200px){
+.about_us{
+  display: block;
+  position: absolute;
+  float:left;
+  padding: 10px;
+  margin-top: 150px;;
+  margin-bottom:100px;
+  margin-right: 305px;
+  margin-left: 100px;
+  font-size: 1em;
+  font-family:georgia;
+  text-align: left;
+}}
+
 
 .about_us_photo{
   display:block;
@@ -154,6 +184,16 @@ div.home_page{
   float:right;
   margin-right:100px;
 }
+@media (max-width: 1200px){
+.about_us_photo{
+  display:block;
+  position: relative;
+  max-width: 450px;
+  max-height: 550px;
+  margin-top: -30px;
+  float:right;
+  margin-right:-270px;
+}}
 /*Style for events*/
 
 /*Style for description of services */
@@ -173,8 +213,19 @@ div.home_page{
   margin-left:100px;
   margin-top:350px;
   text-align:center;
+  padding: -20px;
+  margin-right: 0px;
 }
-
+@media (max-width: 1200px){
+.conteiner-1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  margin-left:370px;
+  margin-top:350px;
+  text-align:center;
+  padding: -20px;
+  margin-right:-180;
+}}
 .conteiner-2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -182,14 +233,22 @@ div.home_page{
   margin-bottom: 100px;
   text-align:center
 }
-
+@media (max-width: 1200px){
+.conteiner-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 370px;
+  margin-bottom: 100px;
+  text-align:center
+  margin-right:-180;
+}}
 .conteiner-1 .box img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 90px;
+  max-height: 90px;
 }
 .conteiner-2 .box1 img{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 90px;
+  max-height: 90px;
 }
 /* Style for schedule*/
 .our_schedule h3{
@@ -207,36 +266,71 @@ div.home_page{
 
 }
 .our_schedule {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: times new roman;
   float: right;
   margin-top: -550px;
-  padding-left: 300px;
+  padding-left: 50px;
   padding-right: 50px;
-
+  margin-right: 0px;
+}
+@media (max-width: 1200px){
+  .our_schedule {
+    font-size: 1.3em;
+    font-family: times new roman;
+    float: right;
+    margin-top: -550px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right:-527px;
+  }}
+.our_schedule img{
+  margin-left: 110px;
 }
 .our_schedule_img img{
   margin-top:20px;
-  width:1400px;
+  width:770px;
   margin:60px;
+  margin-left:685px;
+}
+#error{
+  margin-top: 30px;
+  margin-right: 210px;
+}
+#code{
+  margin-top:10px;
+  margin-right: 210px;
 }
 .our_schedule h1{
-  margin-right: 150px;
-  font-size:2em;
+  margin-right: 900px;
+  margin-left: -60px;
+  margin-top: 0px;
+  font-size:1em;
   position:relative;
-  color:#e6e6e6;
+  color:#1a1a1a;
   font-family: times new roman;
+  text-align: center;
+
   }
   /* Style for Rooms schema */
   .rooms-schema img{
     width:750px;
     max-height: 400px;
-    margin-left: 470px;
-    margin-top:20px;
-    margin-button:100px;
+    margin-left: 230px;
+    margin-top:100px;
+    margin-button:0px;
     position:absolute;
-
   }
+   #schema1 {
+
+     float:left;
+     font-size: 1.1em;
+     font-family: times new roman;
+     margin-left:200px;
+     margin-top: 250px;
+     color:#333;
+     font-weight: 300;
+   }
 /* Style for Ball*/
 div button{
   width:200px;
@@ -247,7 +341,7 @@ div button{
 div button img {
   max-width: 200px;
   margin-left:300px;
-  margin-top:200px;
+  margin-top:100px;
   margin-bottom:200px;
 }
  #demo1{
@@ -260,10 +354,25 @@ div button img {
    font-size: 1.5em;
    font-family:times new roman;
    margin-left:800px;
-   margin-bottom: -100px;
+   margin-bottom: -70px;
    font-weight: bold;
-   margin-top: 50px;
+   margin-top: 0px;
  }
+ @media (max-width: 1200px){
+ #demo1{
+   float:right;
+   margin-right:-77px;
+   margin-top:-320px;
+   font-size:1.5em;
+ }
+ .text-under-ball{
+   font-size: 1.5em;
+   font-family:times new roman;
+   margin-left:665px;
+   margin-bottom: -70px;
+   font-weight: bold;
+   margin-top: -738px;
+ }}
  /* Style for map */
 .map div {
    overflow:hidden;
@@ -286,7 +395,7 @@ div button img {
   margin-right: 50px;
   margin-left: 40px;
   margin-top: 60px;
-
+  border-sizing: border-box;
 }
 .contact_href {
   color:#e6e6e6;
@@ -301,12 +410,21 @@ div button img {
 }
 .backgraund_contact{
   background-color: #1a1a1a;
- width: 100%;
+  width: 100%;
   height: auto;
   margin-top: 100px;
   margin-right: 0px;
   position: absolute;
 }
+@media (max-width: 1200px){
+.backgraund_contact{
+  background-color: #1a1a1a;
+  width: 151%;
+  height: auto;
+  margin-top: 100px;
+  margin-right: 0px;
+  position: absolute;
+}}
 .contact_href img {
   weight: 20px;
   height: 20px;
@@ -324,8 +442,17 @@ footer {
   padding-bottom: 2%;
   height: 20px;
   border-bottom: 1px solid black;
-
+  width: 100%;
 }
+@media (max-width: 1200px){
+footer {
+  padding: 1%;
+  margin-top: 10px;
+  padding-bottom: 2%;
+  height: 20px;
+  border-bottom: 1px solid black;
+  width: 151%;
+}}
 .right {
    float:right;
    margin-right:20px;
