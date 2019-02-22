@@ -4,36 +4,42 @@
   align-items: center;
   width: 50px;
   height: 50px;
-  color:gray;
-  background:#ccfff5;
+  color: gray;
+  background: #ccfff5;
   border-radius: 50%;
   animation: radial-pulse 1s infinite;
 }
- #mediaroom {
+
+#mediaroom {
   position: relative;
-  top:-487px;
-  left:823px;
+  top: -487px;
+  left: 823px;
 }
-  #salon{
+
+#salon {
   position: relative;
-  top:-332px;
-  left:674px;
+  top: -332px;
+  left: 674px;
 }
-  #coworking{
+
+#coworking {
   position: relative;
-  top:-289px;
-  left:926px;
-  }
-  #WC{
+  top: -289px;
+  left: 926px;
+}
+
+#WC {
   position: relative;
-  top:-361px;
-  left:781px;
-  }
-  #childroom{
+  top: -361px;
+  left: 781px;
+}
+
+#childroom {
   position: relative;
-  top:-399px;
-  left:311px;
-  }
+  top: -399px;
+  left: 311px;
+}
+
 .circle {
   width: 100%;
   height: 100vh;
@@ -44,43 +50,52 @@
   position: relative;
   z-index: 1;
 }
-@media (max-width: 1200px){
-.circle {
-  width: 25%;
-  height: 100vh;
-  background-color: none;
-  display: flex;
-  align-items: center;
-  margin-left: 154px;
-  position: relative;
-  z-index: 1;
-}}
-@media (max-width: 1200px){
-#mediaroom {
- position: relative;
- top:-638px;
- left:637px;
+
+@media (max-width: 1200px) {
+  .circle {
+    width: 25%;
+    height: 100vh;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    margin-left: 154px;
+    position: relative;
+    z-index: 1;
+  }
 }
- #salon{
- position: relative;
- top:-462px;
- left:498px;
+
+@media (max-width: 1200px) {
+  #mediaroom {
+    position: relative;
+    top: -638px;
+    left: 637px;
+  }
+
+  #salon {
+    position: relative;
+    top: -462px;
+    left: 498px;
+  }
+
+  #coworking {
+    position: relative;
+    top: -485px;
+    left: 745px;
+  }
+
+  #WC {
+    position: relative;
+    top: -688px;
+    left: 590px;
+  }
+
+  #childroom {
+    position: relative;
+    top: -569px;
+    left: 159px;
+  }
 }
- #coworking{
- position: relative;
- top:-485px;
- left:745px;
- }
- #WC{
- position: relative;
- top:-688px;
- left:590px;
- }
- #childroom{
- position: relative;
- top:-569px;
- left:159px;
- }}
+
 @keyframes radial-pulse {
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);

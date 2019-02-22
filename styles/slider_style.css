@@ -1,63 +1,77 @@
 .slideshow-container {
-    box-sizing: border-box;
-    position: relative;
-    margin: 10px 15px;
-    margin-top:450px;
-    margin-left:150px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 10px 15px;
+  margin-top: 450px;
+  margin-left: 150px;
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
-.mySlides img{
-    width: 650px;
-    height: 450px;
+.mySlides img {
+  width: 650px;
+  height: 450px;
 }
 
-.slide-text{
-  float:right;
+.slide-text {
+  float: right;
   margin-top: -340px;
   font-family: georgia;
   font-size: 1em;
   text-align: center;
-  margin-left:900px;
+  margin-left: 900px;
   margin-right: 85px;
 }
-@media (max-width: 1200px){
-  .slide-text{
-    float:right;
+
+@media (max-width: 1200px) {
+  .slide-text {
+    float: right;
     margin-top: -340px;
     font-family: georgia;
     font-size: 1em;
     text-align: center;
-    margin-left:900px;
+    margin-left: 900px;
     margin-right: -360px;
-  }}
- .slide-text img{
-   weight:20px;
-   height: 20px;
- }
- #photogalery {
-   float:right;
-   color: white;
-   margin-top:350px;
+  }
+}
 
- }
+.slide-text img {
+  weight: 20px;
+  height: 20px;
+}
+
+#photogalery {
+  float: right;
+  color: white;
+  margin-top: 350px;
+}
+
 /* FADING ANIMATION */
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+  from {
+    opacity: .4
+  }
 
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
